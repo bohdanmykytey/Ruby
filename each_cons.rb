@@ -1,7 +1,7 @@
 #using each_consecutive method
 
 def func(input)
-  return input.each_cons(2) { |i| p i }
+  return input.each_cons(2) { |i| print i }
 end
 
 puts func([1, 2, 3, 4, 5, 6, 7, 8])
